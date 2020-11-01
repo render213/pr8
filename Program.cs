@@ -12,7 +12,7 @@ namespace pr8
             for (int i = 1; i <= 100; i++)
             {
                 Console.WriteLine("Count: {0} - Thread' {1} ", i, Thread.CurrentThread.ManagedThreadId);
-                Thread.Sleep(10);
+                 Thread.Sleep(10);
             }
         }
 
